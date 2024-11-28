@@ -2,10 +2,10 @@
 dataset: acdc
 nclass: 4
 crop_size: 256
-data_root: Your/ACDC/Path
+data_root: /content/drive/MyDrive/VT_IPSAL/something_wow/ACDC
 
 # arguments for training
-epochs: 300
+epochs: 100
 batch_size: 12 # per GPU x 1 GPU
 lr: 0.01
 conf_thresh: 0.95
